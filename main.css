@@ -1,0 +1,52 @@
+body {
+    font-family: 'Barlow Condensed', sans-serif;    font-style: italic;
+    background: linear-gradient(180deg, #FFFFFF 0%, #9EA3AB 75%, #E3E3E3 100%);
+    border: 1px solid #A5A9B0;
+}
+
+.title {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 32px;
+    color: #111111;
+
+}
+.price {
+    color: #FFFFFF;
+    padding: 4px 20px 6px;
+    background: #FF0000;
+    border-radius: 3px;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.owl-item .order-button {
+    padding:  4px 24px 8px;
+    background: #111111;
+    border-radius: 3px;
+    color: #FFFFFF;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 700;
+    transform: scale(0.5);
+    transition: all 1000ms;
+}
+.order_link {
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0;
+    align-items: center;
+}
+.container_item {
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.active .order-button {
+    transform: scale(1);
+}
