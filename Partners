@@ -17,13 +17,11 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500" 
     rel="stylesheet">
 
-
-    
 </head>
    
 
 <body>
-  
+    
 
 <header>
 
@@ -52,17 +50,18 @@
         </div>
         
 
-        
     <div class="navbar">
 
     <class="navbar" href="/">
 
-    <a href="http://127.0.0.1:5500/Kontakty.html">КОНТАКТИ</a>
+    <a href="http://127.0.0.1:5500/Kontacty.html">КОНТАКТИ</a>
     <a href="http://127.0.0.1:5500/Partnery.html">ПАРТНЕРИ</a>
+    <a href="http://127.0.0.1:5500/Galereja.html">ГАЛЕРЕЯ</a>
+    <a href="http://127.0.0.1:5500/Novyny.html">НОВИНИ</a>
     <a href="http://127.0.0.1:5500/Komanda.html">КОМАНДА</a>
     <a href="http://127.0.0.1:5500/Proekty.html">ПРОЕКТИ</a>
     <a href="http://127.0.0.1:5500/Pronas.html">ПРО НАС</a>
-    <a href="http://127.0.0.1:5500/Dopomogty.html">ДОПОМОГТИ</a> 
+
   </div>  
 
 
@@ -75,73 +74,75 @@
     </center>
 </header>
 
-<div class="babypicture">
-<center>
-    <img src="Premababy.jpeg"
-    
-</center>
-        </div>
 
-         
-<h1>
-    ДОПОМОЖИ ВРЯТУВАТИ ЖИТТЯ ДІТЯМ
+<div class="Partnery">
     <br>
-    ДЛЯ КРАЩОГО МАЙБУТНЬОГО!<br><br>
-    
-
-</h1>
-
-<h2>НАША МІСІЯ — ДОПОМАГАТИ СПЕЦІАЛІСТАМ
-    <br>РЯТУВАТИ НОВІ ЖИТТЯ,
-    ЛІКУВАТИ ДІТЕЙ<br>
-    І РОСТИТИ ЗДОРОВУ НАЦІЮ!
-
-</h2>
-
-
-<div class="social">
-
+    <br>
     <center>
-        <br> 
+       
         <p id="follow">
-слідкуй за нашими новинами в соцмережах:<br> 
+Our Partners:<br> 
 </p>
+
+<br>
 <br>
     <a target="_blank"
-    href="https://www.facebook.com/SvichadoFund">
-    <img alt="Facebook"
-    img src="FBiconBlacksmall.png"
-style="width:19px;height:19px;">
+    href="https://ohmatdyt.com.ua/">
+    <img alt="Okhmatdyt"
+    img src="ohmatdyt.png"
+style="width:100px;height:100px;">
 
 </a>
     
     &#8287
     &#8287
     &#8287
-    &#8287
-    &#8287
+   
     
     <a target="_blank"
-    href="https://www.instagram.com/svichadofund/">
-    <img alt="Instagram"
-    img src="instaiconsmall.png"
-    style="width:19px;height:19px;">
+    href="https://neonatology.org.ua/">
+    <img alt="Association of Neonatologists of Ukraine"
+    img src="asociacianeonatologiv.jpeg"
+    style="width:100px;height:100px;">
     
     </a>
     
     &#8287
     &#8287
     &#8287
-    &#8287
-    &#8287
-    
+   
+   
+   
     <a target="_blank"
-    href="https://www.linkedin.com/company/svichado-charity/about/">
-<img alt="LinkedIn"
-img src="linkedin-icon.png"
-style="width: 19px;height:19px;">
-    
-    </a>
+    href="https://dobro.ua/ru/company/farmaplant/projects/">
+    <img alt="Farmaplant"
+    img src="farmaplant.png"
+style="width:100px;height:100px;">
+
+&#8287
+&#8287
+&#8287
+
+   
+    <a target="_blank"
+    href="https://mistoditey.org/">
+    <img alt="Misto Schastlyvyh Ditey"
+    img src="mistoditej.png"
+style="width:100px;height:100px;">
+
+&#8287
+&#8287
+&#8287
+
+<a target="_blank"
+href="https://ranenko.com/>
+<img alt="Ranenko"
+img src="ranenkofund.png"
+style="width: 100px; height:100px;">
+
+</a>
+
+
 
     </div>
     
@@ -150,7 +151,10 @@ style="width: 19px;height:19px;">
 </div>
 
 
-            <footer id="footer">Благодійний фонд Свічадо &copy; Реєстр неприбуткових установ та організацій ДФС №: 1620334600159</footer>
+
+
+
+            <footer id="footer">Благодійний фонд Свічадо. 2022</footer>
 
         
     </body>
