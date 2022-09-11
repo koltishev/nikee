@@ -1,7 +1,7 @@
 
 html {
- 
-    background-color: rgb(173, 129, 230); 
+
+    background-color: rgb(173, 129, 230);
     background-size: auto 100%;
     background-repeat: repeat;
     background-position: center right;
@@ -10,246 +10,220 @@ html {
 
 
 .logo {
-z-index: 99;
-position: relative;
-margin-left: 10px;
-margin-top: 10px;
-height: 15px;
-width: auto;
+    z-index: 99;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 15px;
+    width: auto;
 
 
 }
-
 
 
 .homelang a {
-z-index: 99;
-position: absolute;
-float: left;
-margin-left: 100px;
-margin-top: 0px;
-padding-left: 100px;
-display: inline;
-height: 15px;
-width: auto;
-display: inline-block;
-color: rgb(255, 255, 255); 
-font-family: 'Montserrat', sans-serif;
-font-weight: 600;
-font-size: 12px;
+    z-index: 99;
+    position: absolute;
+    float: left;
+    margin-left: 100px;
+    margin-top: 0px;
+    padding-left: 100px;
+    display: inline;
+    height: 15px;
+    width: auto;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
 }
-
-
-
 
 
 body {
     display: block;
-    margin: 0px;
-    cursor: url(birdcursor.png), auto;}
-    
-  }
-  
-  .body {
     margin: 0;
-    padding: 0;
-    
-  }
-  
-header {
-height: 60px;
-width: 100%;
+    cursor: url(birdcursor.png), auto;
+
 }
 
+.body {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    height: 60px;
+    width: 100%;
+}
 
 
 .follow {
 
-  position: fixed;
-  margin-left: auto;
-  margin-right: auto; 
-  text-align:center;
-  background-color: transparent;
-  bottom: 0;
-  width: 100%;
-  height: 1.3rem;   
-  font-weight: 300;
-  text-size-adjust: 8px;  
-  opacity: 1;
-  size: 8px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 8px;
-  text-decoration-color: rgb(255, 255, 255);
-  font color: rgb(255, 255, 255);
-  color: rgb(255, 255, 255); 
-  z-index: 999;
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: transparent;
+    bottom: 0;
+    width: 100%;
+    height: 1.3rem;
+    font-weight: 300;
+    text-size-adjust: 8px;
+    opacity: 1;
+    size: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8px;
+    text-decoration-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    z-index: 999;
 
 }
 
 #nashipartnery {
-
-  
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto; 
-  text-align:center;
-  background-color: transparent;
-  bottom: auto;
-  width: 100%;
-  height: 2rem;   
-  font-weight: 300;
-  text-size-adjust: 20px;  
-  opacity: 1;
-  size: 20px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-  text-decoration-color: rgb(255, 255, 255);
-  font color: rgb(255, 255, 255);
-  color: rgb(255, 255, 255); 
-  z-index: 999;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: transparent;
+    bottom: auto;
+    width: 100%;
+    height: 2rem;
+    font-weight: 300;
+    text-size-adjust: 20px;
+    opacity: 1;
+    size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-decoration-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    z-index: 999;
 
 
 }
 
 
+.social {
+    display: flex;
+    align: center;
+}
 
-
-  .social {
-  
-    position: absolute
-    display: flex
-    align: center
-    margin-top: 700px
-    margin-bottom: 30px
-  }
-  
 
 #follow {
 
-font-size: 16px; 
-font-family: Raleway;
-color: #ffffff; 
-text-decoration: #ffffff; 
+    font-size: 16px;
+    font-family: Raleway, serif;
+    color: #ffffff;
+    text-decoration: #ffffff;
 
 }
 
-  
-  a {
+
+a {
     color: transparent;
     font-family: 'Montserrat', sans-serif;
-   
-  }
 
-  a:link {
+}
 
-text-decoration: none ;
-color: white; 
-font-family: 'Raleway'
+a:link {
+
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway'
 
 
-  }
-  
-  .div {
+}
+
+.div {
     position: center;
-    float: center;
     margin-top: auto;
     margin-bottom: auto;
-  }
-  
-  .overlay {
+}
+
+.overlay {
     width: 100%;
     height: 100vh;
-    position: top fixed;
+    position: fixed;
     opacity: 50;
-    top: 10 px;
+    top: 10px;
     left: 0;
     background-size: 3px 3px;
     z-index: 2;
-  }
-  
+}
+
 h1 {
-  
-  color: #ffffff;
-margin-left: auto;
-margin-right: auto;
-text-align: right;
-margin-top: auto;
-margin-bottom: auto; 
-z-index: 999;
-position: fixed;
-top: 40%;
-left: 45%;
-margin-top: -100px;
-margin-right: 50px;
-font-family: Raleway;
-font-weight: 500;
+
+    color: #ffffff;
+    text-align: right;
+    z-index: 999;
+    position: fixed;
+    top: 40%;
+    left: 45%;
+    margin: -100px 50px auto auto;
+    font-family: Raleway, serif;
+    font-weight: 500;
 
 
-  }
- 
+}
+
 h2 {
-  
-  color: #ffffff;
-  text-align: right;
-  z-index: 999;
-  position: relative;
-  float: right;
-  margin-top: -175px;
-  margin-right: 100px;
-  font-family: Raleway;
-  font-weight: 300;
+
+    color: #ffffff;
+    text-align: right;
+    z-index: 999;
+    position: relative;
+    float: right;
+    margin-top: -175px;
+    margin-right: 100px;
+    font-family: Raleway, serif;
+    font-weight: 300;
 }
 
 
-  img: {
-    
+.img {
     opacity: 1;
     z-index: 4;
     position: absolute;
-    float: :left;
+    float: left;
     transition: filter .5s ease-in-out;
     -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-    filter: grayscale(100%); /* FF 35+ */
-    
+    filter: grayscale(100%);
+}
 
-    img:hover {
-      filter: grayscale(0%);
-  -webkit-filter: grayscale(0%);
-  -moz-filter: grayscale(0%);
-  transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-    }
-    
+/* FF 35+ */
 
 
-    
-  }
+.img:hover {
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+}
 
 
-  
 
-  
+
 /* The navigation bar */
 .navbar {
     overflow: hidden;
     border-color: #ffffff;
 
-    background-color: rgb(173, 129, 230); 
-    
+    background-color: rgb(173, 129, 230);
+
     position: fixed; /* Set the navbar to fixed position */
     top: 15px; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
     height: 40px;
-    text-align: right; 
+    text-align: right;
     margin-right: 15px;
-    
 
-  
-  }
 
-  /* Links inside the navbar */
-  .navbar a {
+}
+
+/* Links inside the navbar */
+.navbar a {
     float: right;
     display: inline-block;
     color: #ffffff;
@@ -259,150 +233,130 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 11px;
-  
 
-  }
-  
-  /* Change background on mouse-over */
-  .navbar a:hover {
+
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
     background: transparent;
     color: rgb(189, 162, 230);
     font-family: 'Montserrat', sans-serif;
-  }
-  
+}
+
 
 .babypicture {
 
-  width: 100vw;
-  max-width: 100%;
-  display: block;
-  margin-left: -5px;
-  margin-right: -5px;
-  left: 0%;
-  right: 0%;
- 
-  
-
+    width: 100vw;
+    max-width: 100%;
+    display: block;
+    margin-left: -5px;
+    margin-right: -5px;
 }
 
 
+.gallery {
+    float: right;
+    margin-right: 90px;
+    margin-top: 160px;
+    display: block;
+    z-index: 7;
+    box-shadow: 12px 10px 50px rgb(117, 117, 117);
+    opacity: 1;
+    filter: grayscale(100%);
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
 
-
-      
-      .gallery {
-
-        float: right;
-        margin-right: 90px;
-        margin-top: 160px;
-        display: block;
-        z-index: 7;
-        box-shadow: 12px 10px 50px rgb(117, 117, 117);
-opacity: 1;
-filter: grayscale(100%);
-filter: grayscale(0%);
-  -webkit-filter: grayscale(0%);
-  -moz-filter: grayscale(0%);
-
-      }
+}
 
 
 .gallery:hover {
-
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(0%);
-  transform: scale(1);
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(0%);
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
 
 }
 
 
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 1.7rem;
+    background-color: rgb(173, 129, 230);
+    text-align: center;
+    font-weight: 300;
+    text-size-adjust: 8px;
+    opacity: 1;
+    size: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8px;
+    text-decoration-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    z-index: 999;
+}
 
 
-
-              footer {
-                position: fixed;
-                bottom: 0;
-                width: 100%;
-                height: 1.7rem;   
-                background-color: rgb(173, 129, 230); 
-                text-align:center;
-                font-weight: 300;
-                text-size-adjust: 8px;  
-                opacity: 1;
-                size: 8px;
-                font-family: 'Montserrat', sans-serif;
-                font-size: 8px;
-                text-decoration-color: rgb(255, 255, 255);
-                font color: rgb(255, 255, 255);
-                color: rgb(255, 255, 255); 
-                z-index: 999; 
-              
-
-
-      #footer {
-        position: fixed;
-        margin-left: auto;
-        margin-right: auto; 
-        text-align:center;
-        background-color: rgb(173, 129, 230); 
-        bottom: 0;
-        width: 100%;
-        height: 1.7rem;   
-        font-weight: 300;
-        text-size-adjust: 8px;  
-        opacity: 1;
-        size: 8px;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 8px;
-        text-decoration-color: rgb(255, 255, 255);
-        font color: rgb(255, 255, 255);
-        color: rgb(255, 255, 255); 
-        z-index: 999;
-      
-        
-              }
+#footer {
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgb(173, 129, 230);
+    bottom: 0;
+    width: 100%;
+    height: 1.7rem;
+    font-weight: 300;
+    text-size-adjust: 8px;
+    opacity: 1;
+    size: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8px;
+    text-decoration-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    z-index: 999;
 
 
-              footer {
-                position: fixed;
-                bottom: 0;
-                width: 100%;
-                height: 1.7rem;   
-                background-color: rgb(173, 129, 230); 
-                text-align:center;
-                font-weight: 300;
-                text-size-adjust: 8px;  
-                opacity: 1;
-                size: 8px;
-                font-family: 'Montserrat', sans-serif;
-                font-size: 8px;
-                text-decoration-color: rgb(255, 255, 255);
-                font color: rgb(255, 255, 255);
-                color: rgb(255, 255, 255); 
-                z-index: 999; 
-              
-                
-                      }
+}
 
-                      .Partnery {
-  
-                        position: relative; 
-                        width: 100%;
-                        display: block;
-                        margin-left: auto;
-                      margin-right: auto;
-                        margin-top: 100px;
-                        z-index: 9;
-                      }
-  
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 1.7rem;
+    background-color: rgb(173, 129, 230);
+    text-align: center;
+    font-weight: 300;
+    text-size-adjust: 8px;
+    opacity: 1;
+    size: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8px;
+    text-decoration-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    z-index: 999;
+}
+
+.Partnery {
+
+    position: relative;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    z-index: 9;
+}
+
 .Partnery:hover {
-  transform: scale(1.5s);
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-
-
+    transform: scale(1.5);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
 }
 
         
