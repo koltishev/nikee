@@ -105,7 +105,6 @@ header {
 
 .social {
     display: flex;
-    align: center;
 }
 
 
@@ -151,13 +150,13 @@ a:link {
     z-index: 2;
 }
 
-h1 {
+.babypicture h1 {
 
     color: #ffffff;
     text-align: right;
     z-index: 999;
     position: fixed;
-    top: 40%;
+    top: 22%;
     left: 45%;
     margin: -100px 50px auto auto;
     font-family: Raleway, serif;
@@ -244,16 +243,15 @@ h2 {
     font-family: 'Montserrat', sans-serif;
 }
 
-
 .babypicture {
-
-    width: 100vw;
-    max-width: 100%;
-    display: block;
-    margin-left: -5px;
-    margin-right: -5px;
+    position: relative;
 }
 
+.babypicture > img {
+    width: 100%;
+    height: 389px;
+    object-fit: cover;
+}
 
 .gallery {
     float: right;
