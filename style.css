@@ -285,6 +285,7 @@ footer {
     margin-right: auto;
     margin-top: 20px;
     z-index: 9;
+    padding-top: 64px;
 }
 .partners-container {
     padding: 0 15px;
