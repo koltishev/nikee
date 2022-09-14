@@ -309,6 +309,11 @@ footer {
     margin: 0 auto;
 }
 
+.team-container {
+    display: flex;
+    justify-content: space-between;
+}
+
 @media (max-width: 780px) {
     .gallery-container {
         justify-content: center;
