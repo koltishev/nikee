@@ -143,7 +143,7 @@ a:link {
     text-align: right;
     z-index: 999;
     position: absolute;
-    top: 30%;
+    top: 46%;
     right: 0;
     margin: -100px 50px auto auto;
     font-family: Raleway, serif;
@@ -221,6 +221,7 @@ a:link {
 
 .babypicture {
     position: relative;
+    padding-top: 100px;
 }
 
 .babypicture > img {
