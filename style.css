@@ -279,11 +279,7 @@ footer {
 .Partnery {
     position: relative;
     width: 100%;
-    max-width: 1280px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
     z-index: 9;
     padding-top: 64px;
 }
