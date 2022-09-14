@@ -300,6 +300,14 @@ footer {
     width: 100%;
 }
 
+
+.follow-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 121px;
+    margin: 0 auto;
+}
+
 @media (max-width: 780px) {
     .gallery-container {
         justify-content: center;
