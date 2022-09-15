@@ -318,8 +318,9 @@ footer {
 .burger {
     display: none;
     position: absolute;
-    right: 50px;
-    top: 20px;
+    right: 27px;
+    top: 19px;
+    padding: 15px;
 }
 
 .burger span {
@@ -384,7 +385,7 @@ footer {
 
     .burger {
         display: block;
-        top: 34px;
+
     }
 
     .navbar {
