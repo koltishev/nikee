@@ -234,6 +234,7 @@ a:link {
     position: relative;
     padding-top: 63px;
     padding-bottom: 21px;
+    min-height: 320px;
 }
 
 .babypicture > img {
