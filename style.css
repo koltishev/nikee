@@ -116,7 +116,7 @@ a:link {
 
     text-decoration: none;
     color: white;
-    font-family: 'Raleway',sans-serif;
+    font-family: 'Raleway', sans-serif;
 
 
 }
@@ -265,9 +265,7 @@ a:link {
 
 }
 
-
 footer {
-    position: fixed;
     bottom: 0;
     width: 100%;
     background-color: rgb(173, 129, 230);
