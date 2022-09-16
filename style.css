@@ -416,6 +416,14 @@ footer {
         z-index: 1000;
         right: 18px;
     }
+
+    .babypicture h1 {
+        font-size: 23px;
+    }
+
+    .babypicture h2 {
+        font-size: 23px;
+    }
 }
 
 
