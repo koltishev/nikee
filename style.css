@@ -147,6 +147,8 @@ a:link {
     text-align: right;
     font-family: Raleway, serif;
     font-weight: 500;
+    position: relative;
+    z-index: 2;
 }
 
 .container_titles {
@@ -162,6 +164,8 @@ a:link {
     text-align: right;
     font-family: Raleway, serif;
     font-weight: 300;
+    position: relative;
+    z-index: 2;
 }
 
 .babypicture iframe {
@@ -229,6 +233,7 @@ a:link {
 .babypicture {
     position: relative;
     padding-top: 63px;
+    padding-bottom: 21px;
 }
 
 .babypicture > img {
@@ -316,9 +321,14 @@ footer {
 
 .team-container {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
+.team-container a {
+    max-width: 200px;
+    width: calc(100% / 2 - 12px);
+}
 .burger {
     display: none;
     position: absolute;
@@ -403,3 +413,14 @@ footer {
     }
 }
 
+
+
+@media (max-width: 521px) {
+    .team-container {
+        display: grid;
+        justify-content: center;
+    }
+    .team-container a {
+        width: calc(100% / 2 - 12px);
+    }
+}
