@@ -264,8 +264,8 @@ a:link {
     -moz-transform: scale(1);
 
 }
-
 footer {
+    position: fixed;
     bottom: 0;
     width: 100%;
     background-color: rgb(173, 129, 230);
