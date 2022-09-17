@@ -380,6 +380,7 @@ footer {
 
 .navbar.active {
     display: flex;
+    width: 109px;
 }
 
 @media (max-width: 780px) {
