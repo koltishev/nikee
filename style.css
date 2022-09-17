@@ -315,11 +315,10 @@ footer {
 
 
 .follow-container {
-    margin-bottom: 10px;
     display: flex;
     justify-content: space-between;
     max-width: 121px;
-    margin: 0 auto;
+    margin: 0 auto 10px  auto;
 }
 
 
