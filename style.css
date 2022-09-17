@@ -400,12 +400,9 @@ footer {
         display: flex;
         margin-left: 20px;
     }
-
     .burger {
         display: block;
-
     }
-
     .navbar {
         height: auto;
         flex-direction: column;
@@ -428,6 +425,9 @@ footer {
 
 
 @media (max-width: 521px) {
+    footer {
+        display: none;
+    }
     .team-container {
         display: grid;
         justify-content: center;
