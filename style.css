@@ -11,7 +11,7 @@ html {
 
 .logo {
     z-index: 99;
-    width: auto;
+    width: 98px;
 }
 
 
@@ -203,9 +203,11 @@ a:link {
 .navbar {
     border-color: #ffffff;
     background-color: rgb(173, 129, 230);
-    top: 15px; /* Position the navbar at the top of the page */
+    top: 15px;
     height: 40px;
     text-align: right;
+    max-width: 440px;
+    width: 100%;
 }
 
 /* Links inside the navbar */
@@ -312,6 +314,7 @@ footer {
 
 
 .follow-container {
+    margin-bottom: 10px;
     display: flex;
     justify-content: space-between;
     max-width: 121px;
