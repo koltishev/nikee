@@ -49,7 +49,6 @@ header {
 
 
 .follow {
-
     position: fixed;
     margin-left: auto;
     margin-right: auto;
@@ -97,7 +96,7 @@ header {
 }
 
 #follow {
-
+  text-align: center;
     font-size: 16px;
     font-family: Raleway, serif;
     color: #ffffff;
@@ -129,6 +128,8 @@ a:link {
 
 .homelang {
     padding-left: 15px;
+    display: flex;
+    align-items: center;
 }
 
 .overlay {
@@ -200,7 +201,6 @@ a:link {
 
 /* The navigation bar */
 .navbar {
-    overflow: hidden;
     border-color: #ffffff;
     background-color: rgb(173, 129, 230);
     top: 15px; /* Position the navbar at the top of the page */
@@ -219,11 +219,8 @@ a:link {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 11px;
-
-
 }
 
-/* Change background on mouse-over */
 .navbar a:hover {
     background: transparent;
     color: rgb(189, 162, 230);
@@ -394,11 +391,6 @@ footer {
 
     header {
         justify-content: flex-start;
-    }
-
-    .homelang {
-        display: flex;
-        margin-left: 20px;
     }
     .burger {
         display: block;
