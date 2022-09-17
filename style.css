@@ -344,7 +344,7 @@ footer {
     position: relative;
     display: block;
     width: 20px;
-    height: 3px;
+    height: 2px;
     background: #FFF;
     transition: all 0.2s ease-in-out;
 }
