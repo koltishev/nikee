@@ -92,7 +92,12 @@ header {
 }
 
 .social {
+    margin-top: 140px;
+}
+
+.follow-container {
     margin-bottom: 10px;
+
 }
 
 #follow {
