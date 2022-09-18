@@ -92,7 +92,7 @@ header {
 }
 
 .social {
-    margin-top: 140px;
+    margin-top: 54px;
 }
 
 .follow-container {
@@ -106,7 +106,8 @@ header {
     font-family: Raleway, serif;
     color: #ffffff;
     text-decoration: #ffffff;
-
+    margin-bottom: 37px;
+    padding-bottom: 11px;
 }
 
 
@@ -135,6 +136,7 @@ a:link {
     padding-left: 15px;
     display: flex;
     align-items: center;
+    max-width: 82px;
 }
 
 .overlay {
@@ -299,7 +301,7 @@ footer {
     width: 100%;
     display: block;
     z-index: 9;
-    padding-top: 64px;
+    padding-top: 96px;
 }
 
 .partners-container {
@@ -310,6 +312,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
+    padding-bottom: 20px;
 }
 
 .gallery-container img {
@@ -341,7 +344,7 @@ footer {
     display: none;
     position: absolute;
     right: 27px;
-    top: 19px;
+    top: 28px;
     padding: 15px;
 }
 
@@ -359,7 +362,7 @@ footer {
     background: #FFF;
     content: '';
     width: 20px;
-    height: 3px;
+    height: 2px;
     transition: all 0.2s ease-in-out;
 }
 
@@ -436,4 +439,15 @@ footer {
     .team-container a {
         width: calc(100% / 2 - 12px);
     }
+}
+
+
+.team-who {
+    color: gainsboro;
+    font-size: 13px;
+    margin-top: 0;
+}
+
+.team-name {
+    margin-top: 14px;
 }
