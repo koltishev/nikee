@@ -319,6 +319,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
+    text-align: center;
     padding-bottom: 20px;
 }
 
@@ -450,7 +451,6 @@ footer {
 
 
 .team-who {
-    color: gainsboro;
     font-size: 13px;
     margin-top: 0;
 }
