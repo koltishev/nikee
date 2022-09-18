@@ -241,9 +241,8 @@ a:link {
 
 .babypicture {
     position: relative;
-    padding-top: 63px;
-    padding-bottom: 21px;
-    min-height: 320px;
+    padding-top: 84px;
+    padding-bottom: 33px;
     display: flex;
     align-items: center;
     justify-content: end;
@@ -255,6 +254,9 @@ a:link {
     object-fit: cover;
     position: absolute;
     top: 0;
+}
+.babypicture .baby_mob {
+    display: none;
 }
 
 .gallery {
@@ -455,4 +457,14 @@ footer {
 
 .team-name {
     margin-top: 14px;
+}
+
+
+@media (max-width: 756px) {
+    .babypicture > img {
+        display: none;
+    }
+    .babypicture .baby_mob {
+        display: block;
+    }
 }
